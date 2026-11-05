@@ -115,7 +115,7 @@ Para executar o projeto:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/DJ-Finance-AI-Academico.git
+git clone https://github.com/DouglasWilliams10/DJ-Finance-AI-Academico.git
 ```
 
 Entre na pasta:
