@@ -1,0 +1,45 @@
+
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #080d18;
+  color: #f1f5f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: #080d18;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 80% 0%,
+      rgba(0, 212, 240, 0.045),
+      transparent 35%
+    ),
+    #080d18;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(0, 212, 240, 0.3);
+  color: white;
+}

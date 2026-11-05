@@ -1,0 +1,39 @@
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables and secrets
+.env*
+!.env.example
+
+# Generated Prisma Client
+/src/generated/prisma/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Neon local configuration
+.neon
+
+
+# Dependencies
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+
+# Vercel
+.vercel
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
